@@ -25,13 +25,7 @@
 │   │   ├── farm-3.geojson
 │   │   ├── farm-4.geojson
 │   │   ├── farm-5.geojson
-│   ├── climate_data
-│   │   ├── climate_2017.csv
-│   │   ├── climate_2018.csv
-│   │   ├── climate_2019.csv
-│   │   ├── climate_2020.csv
-│   │   ├── climate_2021.csv
-│   │   ├── climate_2022.csv
+
 
 
 ```
