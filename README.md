@@ -1,6 +1,6 @@
 # Pasture-Classification-RF-CNN-LSTM
 
-Author: Paul Yomer Ruiz Pinto (N10962646) Last Modified: 01/11/2024
+Author: Paul Ruiz (N10962646) Last Modified: 01/11/2024
 --------------
 
 ## Project Abstract
