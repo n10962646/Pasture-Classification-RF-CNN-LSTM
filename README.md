@@ -5,6 +5,11 @@ Author: Paul Ruiz (N10962646) Last Modified: 01/11/2024
 
 ## Project Abstract
 
+The growing need for sustainable land management has prompted the use of data-driven methods for monitoring and classifying pasture states, which play a critical role in agricultural productivity. However, accurately classifying diverse pasture states remains challenging due to class imbalance and the complex nature of agricultural landscapes. This study investigated the integration of multi-source data spatial (raster imagery), temporal (time-series), and tabular (farm metadata) to enhance classification accuracy in pasture state monitoring. Traditional single-source models often struggle to capture the nuances of diverse classes, especially in imbalanced datasets. This study addressed this gap by implementing a fusion model that combines Convolutional Neural Networks (CNN) for image analysis, Random Forest (RF) for tabular data and Long Short-Term Memory (LSTM) networks for temporal patterns.
+
+The fusion model was trained and evaluated on multi-source data from Sentinel-2 satellite imagery and farm records, achieving an overall classification accuracy of 84%. Despite the considerable class imbalance, the model demonstrated robust performance, classifying the dominant "Grazing" state while capturing minority states like "Yard" and "Laneway" with reasonable accuracy. Validation accuracy was stable, but slight overfitting was observed for the dominant class, suggesting potential for improvement in handling class imbalance. The model’s success illustrates the value of combining spatial, temporal and static data, as it enabled the model to generalise well across diverse pasture states.
+
+Conclusions indicate that multi-modal data fusion offers a promising approach for agricultural monitoring, providing a more detailed and accurate classification of pasture states. For future research, it is recommended to explore advanced fusion techniques, such as learned feature concatenation, and to incorporate further augmentation methods to further mitigate class imbalance effects.
 
 --------------
 
